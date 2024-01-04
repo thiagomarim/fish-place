@@ -1,12 +1,17 @@
 import React from "react";
-import styles from "../Components/Banner.module.css";
 
 const Banner = () => {
   return (
-    <div className={styles.bg}>
-      <h3 className={styles.bannertitle}>O melhor lugar para ver a beleza da natureza.</h3>
-      <div className={styles.containerbtn}>
-        <a href="#" className={styles.btn}>Assine o nosso pacote</a>
+    <div className="bg-[url('./assets/banner.png')] h-[400px] bg-cover">
+      <div className="flex items-left flex-col gap-[40px]">
+        <h3 className="flex items-center text-white pt-[150px] font-alice text-5xl max-w-[600px] ml-[80px]">
+          O melhor lugar para ver a beleza da natureza.
+        </h3>
+        <div>
+          <a href="#" className="ml-[80px] p-[10px] bg-blue-500 text-white rounded-md">
+            Assine o nosso pacote
+          </a>
+        </div>
       </div>
     </div>
   );

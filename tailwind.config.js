@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'alice': ['Alice', 'Arial', 'sans-serif']
+      },
+      backgroundImage: {
+        'banner': "url('/assets/banner.png')"
+      }
+    },
   },
   plugins: [],
 }
