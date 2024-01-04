@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 import Banner from "./Components/Banner";
 import About from "./Components/About.jsx";
 import Planos from "./Components/Planos.jsx";
+import Contato from "./Components/Contato.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Banner />
       <About />
       <Planos />
+      <Contato />
     </>
   );
 }

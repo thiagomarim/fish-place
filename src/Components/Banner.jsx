@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="bg-[url('./assets/banner.png')] h-[400px] bg-cover">
+    <div className="bg-[url('./assets/banner.png')] h-[500px] bg-cover">
       <div className="flex items-left flex-col gap-[40px] ml-56">
         <h3 className="flex items-center text-white pt-[150px] font-alice text-5xl max-w-[600px] ml-[80px]">
           O melhor lugar para ver a beleza da natureza.

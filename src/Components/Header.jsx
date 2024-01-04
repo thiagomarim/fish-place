@@ -3,7 +3,7 @@ import Logo from "../assets/logo.svg?react";
 
 const Header = () => {
   return (
-    <nav className="flex items-center justify-between text-white bg-slate-950 pt-5 pr-20 pb-5 pl-20">
+    <nav className="flex items-center justify-between text-white bg-blue-header pt-5 pr-20 pb-5 pl-20">
       <div className="flex items-center gap-4">
         <Logo />{" "}
         <a className="text-2xl font-bold" href="#">
