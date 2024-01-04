@@ -1,19 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Nunito:wght@400;700&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  background-color: #fff;
   margin: 0px;
-  color: #fff;
-  --type-first: 'Roboto', Arial , sans-serif;
+  color: #17222d;
+  --type-first: "Nunito", Arial, sans-serif;
+  --type-second: "Alice", Arial, sans-serif;
   font-family: var(--type-first);
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin: 0px;
 }
 
-ul, li, a {
+ul,
+li,
+a {
   list-style: none;
   text-decoration: none;
   color: #fff;
@@ -24,4 +33,10 @@ ul, li, a {
 img {
   display: block;
   max-width: 100%;
+}
+
+.container {
+  max-width: 110rem;
+  padding: 0 1rem;
+  margin: 0 auto;
 }
