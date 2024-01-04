@@ -6,6 +6,7 @@ import Banner from "./Components/Banner";
 import About from "./Components/About.jsx";
 import Planos from "./Components/Planos.jsx";
 import Contato from "./Components/Contato.jsx";
+import Footer from "./Components/Footer.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Planos />
       <Contato />
+      <Footer />
     </>
   );
 }
