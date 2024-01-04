@@ -5,10 +5,10 @@ import Logo from "../assets/logo.svg?react";
 const Planos = () => {
   return (
     <section className="text-center mt-16 p-[40px] mb-12 bg-bg-planos">
-      <h1 className="font-alice text-5xl">Planos</h1>
-      <div className="flex gap-16 justify-center mt-10">
-        <div className="bg-white p-[40px] rounded-lg shadow-lg mb-12">
-          <h3 className=" flex items-center gap-4 justify-center text-2xl font-bold text-slate-600 pb-[30px] border-b-2 border-zinc-300">
+      <h3 className="font-alice text-4xl lg:text-5xl">Planos</h3>
+      <div className="flex gap-2 lg:gap-16 justify-center mt-10 flex-wrap">
+        <div className="bg-white p-[20px] lg:p-[40px] rounded-lg shadow-lg mb-12">
+          <h3 className=" flex items-center gap-4 justify-center text-2xl lg:text-2xl font-bold text-slate-600 pb-[30px] border-b-2 border-zinc-300">
             INFANTIL
             <span className="bg-blue-white rounded-md">
               <Logo />
@@ -38,7 +38,7 @@ const Planos = () => {
             </a>
           </div>
         </div>
-        <div className="bg-white p-[40px] rounded-md shadow-lg mb-12">
+        <div className="bg-white p-[20px] lg:p-[40px] rounded-lg shadow-lg mb-12">
           <h3 className=" flex items-center gap-4 justify-center text-2xl font-bold text-slate-600 pb-[30px] border-b-2 border-zinc-300">
             ADULTO
             <span className="bg-red-500 rounded-md">

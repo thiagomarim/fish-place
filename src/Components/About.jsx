@@ -5,22 +5,22 @@ import Sol from '../assets/sol.svg?react'
 
 export const About = () => {
   return (
-    <div className="flex justify-center gap-[120px] mt-28 mb-28">
-      <div className="flex flex-col gap-[30px] ">
-        <h1 className="text-5xl font-alice max-w-[600px]">
+    <div className="flex flex-wrap justify-center gap-[120px] mr-4 ml-4 lg:mr-12 lg:ml-12 mt-28 mb-28">
+      <div className="flex flex-col gap-[5px] sm:gap-[30px] items-center lg:items-start xl:justify-center-center">
+        <h1 className="text-4xl sm:text-5xl font-alice text-center lg:text-start max-w-[600px]">
           Conheça o que há nas profundeza dos mares.
         </h1>
-        <p className="text-slate-700 text-lg max-w-[480px] mt-[40px]">
+        <p className="text-slate-700 text-lg max-w-[380px]  sm:max-w-[480px] mt-[20px] sm:mt-[40px]">
           Venha participar dessa grande aventura, com a nossa equipe, aqui você
           irá descobrir tudo sobre o mar, se aventurando e entrando no mesmo.
         </p>
-        <p className="text-slate-700 text-lg max-w-[480px]">
+        <p className="text-slate-700 text-lg max-w-[380px] sm:max-w-[480px] mt-[40px]">
           Temos total controle e acompanhamento sobre o passeio de scuba, temos
           regras de segurança estabelecidas com total consciência.
         </p>
       </div>
-      <div className="flex flex-col gap-[10px]">
-        <h1 className="text-5xl font-alice max-w-[400px] mb-[30px]">
+      <div className="flex flex-col gap-[10px] ml-4 lg:ml-0 mr-4 lg:mr-0">
+        <h1 className="text-4xl sm:text-5xl font-alice text-center lg:text-start max-w-[600px] mb-[15px] lg:mb-[30px]">
           Segurança e Equipamentos
         </h1>
         <div className="border-t-2 border-y-zinc-200 border-b-2"  >

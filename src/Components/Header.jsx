@@ -14,7 +14,7 @@ const Header = () => {
         <li>
           <a
             href="#"
-            className="flex items-center gap-1 text-base before:content-[''] before:border-2 before:border-red-800 before:rounded-md before:w-2 before:h-2 before:inline-block hover:text-zinc-300"
+            className="flex items-center gap-1 text-lg before:content-[''] before:border-2 before:border-red-800 before:rounded-md before:w-2 before:h-2 before:inline-block hover:text-zinc-300"
           >
             Sobre
           </a>
@@ -22,7 +22,7 @@ const Header = () => {
         <li>
           <a
             href=""
-            className="flex items-center gap-1 text-base before:content-[''] before:border-2 before:border-red-800 before:rounded-md before:w-2 before:h-2 before:inline-block hover:text-zinc-300"
+            className="flex items-center gap-1 text-lg before:content-[''] before:border-2 before:border-red-800 before:rounded-md before:w-2 before:h-2 before:inline-block hover:text-zinc-300"
           >
             Planos
           </a>
@@ -30,7 +30,7 @@ const Header = () => {
         <li>
           <a
             href=""
-            className="flex items-center gap-1 text-base before:content-[''] before:border-2 before:border-red-800 before:rounded-md before:w-2 before:h-2 before:inline-block hover:text-zinc-300"
+            className="flex items-center gap-1 text-lg before:content-[''] before:border-2 before:border-red-800 before:rounded-md before:w-2 before:h-2 before:inline-block hover:text-zinc-300"
           >
             Contato
           </a>
