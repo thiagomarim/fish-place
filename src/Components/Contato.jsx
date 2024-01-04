@@ -3,7 +3,7 @@ import Map from "../assets/map.png";
 
 const Contato = () => {
   return (
-    <section className="text-center mb-12">
+    <section id="contato" className="text-center mb-12">
       <h3 className="font-alice text-4xl  lg:text-5xl mb-[40px]">Contato</h3>
       <div className="flex flex-wrap md:flex-nowrap  justify-center items-center gap-[60px] lg:gap-[120px]">
         <img src={Map} alt="" className="ml-6 lg:ml-0 mr-6 lg:mr-0"/>

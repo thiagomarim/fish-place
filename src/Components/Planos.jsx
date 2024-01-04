@@ -4,7 +4,7 @@ import Logo from "../assets/logo.svg?react";
 
 const Planos = () => {
   return (
-    <section className="text-center mt-16 p-[40px] mb-12 bg-bg-planos">
+    <section id='planos' className="text-center mt-16 p-[40px] mb-12 bg-bg-planos">
       <h3 className="font-alice text-4xl lg:text-5xl">Planos</h3>
       <div className="flex gap-2 lg:gap-16 justify-center mt-10 flex-wrap">
         <div className="bg-white p-[20px] lg:p-[40px] rounded-lg shadow-lg mb-12">
