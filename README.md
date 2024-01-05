@@ -1,8 +1,31 @@
-# React + Vite
+![fish-place](https://github.com/thiagomarim/fish-place/assets/137715251/0d1e24e1-2da6-499b-9ed5-6709d850c7a1)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br>
 
-Currently, two official plugins are available:
+## 🧪 Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Esse projeto foi desenvolvido utilizando as seguintes ferramentas:
+
+- [ReactJS](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## 🚀 Vamos começar
+
+Clone esse projeto e acesse os arquivos.
+
+```bash
+git clone https://github.com/thiagomarim/fish-place
+
+cd fish-place
+
+```
+
+Execute esse comando para instalar as dependências.
+
+```bash
+yarn install
+
+yarn start
+```
+
